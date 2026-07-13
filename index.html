@@ -1,16 +1,70 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>My GitHub Website</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 16px; }
-    h1 { margin-bottom: 8px; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <p>This is my website hosted on GitHub Pages.</p>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="/">Your Name</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/projects.html">Projects</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div>
+        <p class="eyebrow">Welcome</p>
+        <h1>Hello, I’m Your Name.</h1>
+        <p class="lead">
+          I’m a [student / designer / developer / writer] who makes useful things.
+        </p>
+        <div class="button-row">
+          <a class="button" href="/projects.html">View Projects</a>
+          <a class="button button-secondary" href="/contact.html">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>Featured Projects</h2>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>A short description of your first project.</p>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>A short description of your second project.</p>
+        </article>
+        <article class="card">
+          <h3>Project Three</h3>
+          <p>A short description of your third project.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>About This Site</h2>
+      <p>
+        This is my personal website, hosted on GitHub Pages. I’ll use it to share
+        projects, a bit about me, and ways to get in touch.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Your Name</p>
+    </div>
+  </footer>
 </body>
 </html>
